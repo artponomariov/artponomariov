@@ -158,13 +158,10 @@ button {
 
   .app {
     display: block !important;
+    border: none !important;
   }
 
   .section--skills {
-    page-break-after: always;
-  }
-
-  .section--projects {
     page-break-after: always;
   }
 
@@ -182,7 +179,11 @@ button {
     margin-bottom: 10px !important;
   }
 
-  footer {
+  .nav {
+    display: none !important;
+  }
+
+  footer, center, br {
     display: none !important;
   }
 }
