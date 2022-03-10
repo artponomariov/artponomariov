@@ -5,6 +5,8 @@ body
   font-family: 'Smooch Sans', sans-serif
   font-weight: 200
   font-size: $fz-sm
+  @media (max-width: 1250px)
+    font-size: 1.9vw
 
 .app
   border: 2px solid $white-md
@@ -16,6 +18,10 @@ body
   width: $container-width
   margin: auto
   position: relative
+  @media (max-width: 1250px)
+    width: 80vw
+    padding: 3vw
+
 
 .noise
   position: fixed
@@ -25,6 +31,7 @@ body
   bottom: 0
   z-index: 100
   height: 100vh
+  pointer-events: none
 
   &:before
     content: ""
@@ -92,3 +99,5 @@ button
     margin-bottom: 10px !important
   footer
     display: none !important
+
+

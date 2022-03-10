@@ -1,7 +1,12 @@
 .divider
   width: calc(100% + 2 * #{$gap-sm})
-  margin-left: calc(-1  * #{$gap-sm})
+  margin-left: calc(-1 * #{$gap-sm})
   height: 2px
   background: $white-lg
   margin-bottom: $gap-sm
   margin-top: $gap-sm
+  @media (max-width: 1250px)
+    width: calc(100% + 2 * 2vw)
+    margin-left: calc(-1 * 2vw)
+    margin-bottom: 2vw
+    margin-top: 2vw

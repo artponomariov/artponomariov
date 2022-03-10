@@ -1,6 +1,8 @@
 .box
   &--links-header
     margin-left: $gap-md
+    @media (max-width: 1250px)
+      margin-left: 2vw
 
   &--desc
     margin-left: auto
@@ -14,6 +16,8 @@
     align-items: flex-end
     justify-content: space-between
     margin-bottom: $gap-sm
+    @media (max-width: 1250px)
+      margin-bottom: 2vw
 
   &--avatar
     width: 290px
@@ -22,6 +26,9 @@
     border: 2px solid $white-lg
     border-radius: $br-circ
     position: relative
+    @media (max-width: 1250px)
+      width: 22vw
+      height: 22vw
 
     &:hover
 

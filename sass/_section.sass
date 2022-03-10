@@ -2,9 +2,13 @@
   border-radius: $br-xs
   padding: $gap-sm
   border: 2px solid $white-md
+  @media (max-width: 1250px)
+    padding: 2vw
 
   &:not(:first-child)
     margin-top: $gap-lg
+    @media (max-width: 1250px)
+      margin-top: 3vw
 
   &__header
     display: flex
@@ -28,4 +32,7 @@
       left: 50%
       transform: translateY(-50%) translateX(-50%)
       background: $white-lg
+
+      @media (max-width: 1250px)
+        width: calc(100% - 6.66vw - 6.66vw - 10vw)
 

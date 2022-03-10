@@ -11,22 +11,32 @@
     height: 180px
     filter: invert(1)
     transform: translateX(-50%) translateY(-50%)
+    @media (max-width: 1250px)
+      width: 13vw
+      height: 13vw
 
   &--avatar-hover
     width: 300px
     opacity: 0
     transform: translateX(50%) translateY(-50%)
-
+    @media (max-width: 1250px)
+      width: 10vw
 
 i
   &.fa-lg
     font-size: 50px
+    @media (max-width: 1250px)
+      font-size: 3vw
 
   &.fa-md
     font-size: 30px
+    @media (max-width: 1250px)
+      font-size: 2vw
 
   &.fa-xs
     font-size: 15px
+    @media (max-width: 1250px)
+      font-size: 1.5vw
 
   &.fa-phone
     margin-left: 10px
