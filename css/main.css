@@ -83,12 +83,21 @@ button {
   }
 
   .section--projects {
-    page-break-before: always;
+    page-break-after: always;
   }
 
   * {
     color: #000000 !important;
     border-color: #000000 !important;
+  }
+
+  .divider {
+    display: none !important;
+  }
+
+  .box--name {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
 
   footer {
@@ -213,14 +222,6 @@ p {
 
 .text--header:not(:first-child) {
   margin-top: 10px;
-}
-
-.article__header {
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  margin-left: calc(-1 * 20px);
 }
 
 .divider {
