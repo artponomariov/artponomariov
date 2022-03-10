@@ -1,0 +1,37 @@
+.img
+  &--avatar
+    position: absolute
+    display: block
+    left: 50%
+    top: 50%
+    transition: transform .1s ease
+
+  &--avatar-main
+    width: 180px
+    height: 180px
+    filter: invert(1)
+    transform: translateX(-50%) translateY(-50%)
+
+  &--avatar-hover
+    width: 300px
+    opacity: 0
+    transform: translateX(50%) translateY(-50%)
+
+
+i
+  &.fa-lg
+    font-size: 50px
+
+  &.fa-md
+    font-size: 30px
+
+  &.fa-xs
+    font-size: 15px
+
+  &.fa-phone
+    margin-left: 10px
+    transform: translateY(2px) translateX(2px)
+
+  &.fa-location-dot
+    margin-left: 10px
+    transform: translateY(1px)

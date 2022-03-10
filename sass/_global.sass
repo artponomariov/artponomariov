@@ -1,0 +1,45 @@
+body
+  background: $dark-lg
+  color: $white-lg
+  margin: $gap-lg
+  font-family: 'Smooch Sans', sans-serif
+  font-weight: 200
+  font-size: $fz-sm
+
+.app
+  border: 2px solid $white-md
+  display: flex
+  flex-direction: column
+  min-height: calc(100vh - calc(#{$gap-lg} * 2))
+  border-radius: $br-xs
+  padding: $gap-lg
+  width: $container-width
+  margin: auto
+  position: relative
+
+button
+  all: unset
+  box-sizing: border-box
+  cursor: pointer
+
+*
+  box-sizing: border-box
+
+@media print
+  .box--avatar
+    display: none !important
+  .box--links-header
+    display: none !important
+  .section
+    border-radius: 0 !important
+  .app
+    display: block !important
+  .section--skills
+    page-break-after: always
+  .section--projects
+    page-break-before: always
+  *
+    color: #000000 !important
+    border-color: #000000 !important
+  footer
+    display: none !important

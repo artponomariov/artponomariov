@@ -1,0 +1,31 @@
+.section
+  border-radius: $br-xs
+  padding: $gap-sm
+  border: 2px solid $white-md
+
+  &:not(:first-child)
+    margin-top: $gap-lg
+
+  &__header
+    display: flex
+    justify-content: space-between
+
+  &--header
+    display: flex
+
+  &--footer
+    display: flex
+    justify-content: space-between
+    position: relative
+
+    &:before
+      display: block
+      content: ""
+      position: absolute
+      width: calc(100% - 180px - 80px)
+      height: 2px
+      top: 50%
+      left: 50%
+      transform: translateY(-50%) translateX(-50%)
+      background: $white-lg
+
