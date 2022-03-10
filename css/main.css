@@ -231,6 +231,11 @@ button {
 .link--column:not(:first-child) {
   margin-top: 10px;
 }
+@media (max-width: 1250px) {
+  .link--column:not(:first-child) {
+    margin-top: 1vw;
+  }
+}
 .link--project {
   margin-left: 20px;
 }
