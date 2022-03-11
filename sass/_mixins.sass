@@ -1,0 +1,54 @@
+//print dark
+@mixin print-dark
+  .noise
+    display: none !important
+  .divider
+    display: none !important
+  .box--name
+    margin-top: 10px !important
+    margin-bottom: 10px !important
+  .box--links-header
+    display: none !important
+  .nav
+    display: none !important
+  footer, center, br
+    display: none !important
+  .link--project
+    span:not(.print)
+      display: none !important
+    span.print
+      display: inline !important
+
+//print light
+@mixin print-light
+  .img--avatar-main
+    filter: none !important
+  .box--links-header
+    display: none !important
+  .section
+    background: #d0d0d0 !important
+    border: none !important
+  .app, body
+    border: none !important
+    background: #ffffff !important
+  .noise
+    display: none !important
+  *
+    color: #000000 !important
+    border-color: #000000 !important
+  .divider
+    display: none !important
+  .box--name
+    margin-top: 10px !important
+    margin-bottom: 10px !important
+  .box--links-header
+    display: none !important
+  .nav
+    display: none !important
+  footer, center, br
+    display: none !important
+  .link--project
+    span:not(.print)
+      display: none !important
+    span.print
+      display: inline !important

@@ -9,7 +9,9 @@
     <div class="app">
       <header class="section section--header">
         <div class="box box--avatar"><img class="img img--avatar img--avatar-main" src="//cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_600x.png?v=1614182807" alt="avatar" sizes="300px" srcset="//cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_150x.png?v=1614182807 150w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_300x.png?v=1614182807 300w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_600x.png?v=1614182807 600w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_900x.png?v=1614182807 900w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_1200x.png?v=1614182807 1200w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_1500x.png?v=1614182807 1500w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_1800x.png?v=1614182807 1800w, //cdn.shopify.com/s/files/1/0537/5908/2656/files/Asset_3_2100x.png?v=1614182807 2100w"/><img class="img img--avatar img--avatar-hover" src="images/avatar-hover.svg"/></div>
-        <div class="box box--links-header"><a class="link link link--circle link--column link--lg" href="mailto:artiomponomariovcode@gmail.com"><i class="fa fa-envelope fa-lg"></i></a><a class="link link link--circle link--column link--lg" href="https://github.com/artponomariov" target="_blank"><i class="fa-brands fa-github-alt fa-lg"></i></a><a class="link link link--circle link--column link--lg" href="#pdf"><i class="fa-solid fa-file-pdf fa-lg"></i></a></div>
+        <div class="box box--links-header"><a class="link link link--circle link--column link--lg" href="mailto:artiomponomariovcode@gmail.com"><i class="fa fa-envelope fa-lg"></i></a><a class="link link link--circle link--column link--lg" href="https://github.com/artponomariov" target="_blank"><i class="fa-brands fa-github-alt fa-lg"></i></a>
+          <button class="link link link--circle link--column link--lg" onclick="window.print();"><i class="fa-solid fa-file-pdf fa-lg"></i></button>
+        </div>
         <div class="box box--desc">
           <h1>Artiom Ponomariov</h1>
           <div class="text text--descr text--header">frontend developer & css enthusiast</div>
@@ -17,20 +19,21 @@
           <div class="text text--tel text--header">+(373)606-09-177<i class="fa-solid fa-phone fa-xs"></i></div>
         </div>
       </header>
-      <div class="section section--career" id="career">
+      <section class="section section--career" id="career">
         <div class="section__header">
           <h2>Career Summary</h2><i class="fa-solid fa-user fa-md"></i>
         </div>
         <div class="article article--career">
           <div class="divider"></div>
           <div class="box--body">
-            <p>Greetings! I am a frontend developer and designer with 5 years of commercial experience in CSS, HTML,  Javascript and different CMS platforms.</p>
-            <p>I enjoy reading css specification and fight for perfection of pixels</p>
-            <p>I had experience with many modern frameworks and ui kits and also had a chance to build a few design systems</p>
+            <p>Greetings! I am a frontend developer and design adopter with 5 years of commercial experience in CSS, HTML, Javascript and different CMS platforms.</p>
+            <p>After I graduated as an economist in year 2011, I understood that reality is changing and had to train for a new profession. In this regard, a few years later, I decided that I should also become a programmer and successfully completed my studies at a local university. Education was terrible and only gave an approximate guideline, universities in the CIS do not provide the required amount of knowledge and as a result I had to learn everything myself, and want to continue doing that.</p>
+            <p>Most of my career I have had freelance sideprojects, but also worked in different Moldavian companies as a frontend developer. Most of my tasks were around bringing design into code.</p>
+            <p>What I consider most important in modern projects is ability to create a good design system with collaboration from all team members.</p>
           </div>
         </div>
-      </div>
-      <div class="section section--skills" id="skills">
+      </section>
+      <section class="section section--skills" id="skills">
         <div class="section__header">
           <h2>Skills</h2><i class="fa-solid fa-bolt fa-md"></i>
         </div>
@@ -40,7 +43,12 @@
             <h3>Css</h3>
           </div>
           <div class="box--body">
-            <p>Responsive design, crossbrowser, pixel perfect, lover to read the specification and walk around css modules</p>
+            <p>This is how I can describe my set of skills around css in one sentence: a fan of responsive and crossbrowser code, with ability to do it pixel perfect, lover to read the <a class="link" href="https://www.w3.org/TR/css-2021/" target="_blank">specification</a> and walk around <a class="link" href="https://www.w3.org/Style/CSS/current-work.html" target="_blank">css modules</a>.</p>
+            <p>Had experience with many popular css concepts like atomic or BEM and frameworks like Bootstrap or Tailwind, but prefer to write everything from scratch and mix the ideas.</p>
+            <p>Have touched all the popular preprocessors like sass, scss, less, stylus.</p>
+            <p>Big experience in converting design from figma and similar tools into code.</p>
+            <p>Had a lot of experience with css animations and transitions.</p>
+            <p>I know what houdini is, do you?</p>
           </div>
         </div>
         <div class="article article--html">
@@ -50,6 +58,7 @@
           </div>
           <div class="box--body">
             <p>Good HTML has to be semantic and seo friendly, but I didn't find a person who is 100% sure how to do it. Not a big accessibility expert, but understand the importance of it.</p>
+            <p>I am fan of a big russian community webstandards, and participated a lot in their chats. Once, the owner and creator of this community said a joke that most html developers have a disease called "DIVatosis", and I don't want to be this kind of developer. But most of time business doesn't need other tags and don't have resources for e.g. accessibility, so I put design on the first place for myself.</p>
           </div>
         </div>
         <div class="article article--js">
@@ -58,17 +67,11 @@
             <h3>Javascript</h3>
           </div>
           <div class="box--body">
-            <p>As frontend developer, I always faced with various tasks related to it. I even passed the exam with excellent marks, but would love someday to fully understand the prototype inheritance and why OOP in javascript is just a syntax sugar. I am aware of who is developing it and went deep into the specification a couple of times. Had experience with vue and react.</p>
-          </div>
-        </div>
-        <div class="article article--tools">
-          <div class="divider"></div>
-          <div class="box--name">
-            <h3>Tools</h3>
-          </div>
-          <div class="box--body">
-            <p>here is a list of tools, concepts and technologies that I happened to encounter in various projects: git, jira, trello, jquery, vue, react, mui, redux, bootstrap, atomic, bem, sass, scss, pug, gulp, jetbrains, sublime, vscode, mac os</p>
-            <p>here is a list of tools that I would love to know better, or had little experience: cypress, docker, php, apache, wamp, xamp, typescript, python, meteor.js, coffee script, linux, cmd</p>
+            <p>As frontend developer, I always faced with various tasks related to it. I even passed the exam with excellent marks, but would love someday to fully understand the prototype inheritance and why OOP in javascript is just a syntax sugar. I am aware of who is developing it and went deep into the specification a couple of times.</p>
+            <p>I had experience with many modern frameworks like meteor.js, vue, react and ui kits that are used in their ecosystem.</p>
+            <p>Have tried Javascript animations and libraries like Greensock. My first project was to transform adobe premiere video into a landing page that was fully animated.</p>
+            <p>Had experience with tools like typescript and redux, but want to understand them better.</p>
+            <p>My dream is to start creating cool animations with canvas someday.</p>
           </div>
         </div>
         <div class="article article--cms">
@@ -77,39 +80,42 @@
             <h3>CMS & Nocode</h3>
           </div>
           <div class="box--body">
-            <p>here is a list of CMS and site builders with which it was possible to successfully complete the project: Wordpress, Tilda, Cargo, Webflow</p>
+            <p>Here is a list of CMS and site builders with which it was possible to successfully complete the project: Wordpress, Tilda, Cargo, Webflow. I never was a huge fan of nocode programming and more of a hater, but always faced clients that are in need of supporting their cms websites, so because of that had to handle my hate. Looking to the future, it seems that the world of nocode programming will only expand and such a set of knowledge will come in handy more than once.</p>
           </div>
         </div>
-      </div>
-      <div class="section section--projects" id="projects">
+        <div class="article article--tools">
+          <div class="divider"></div>
+          <div class="box--name">
+            <h3>Tag cloud</h3>
+          </div>
+          <div class="box--body">
+            <p>here is a list of tools, concepts and technologies that I happened to encounter in various projects: git, jira, trello, figma, meteor.js, jquery, vue, react, mui, redux, bootstrap, gsap, bem, sass, scss, less, stylus, tailwind, atomic, pug, gulp, jetbrains, sublime, vscode, mac os</p>
+            <p>here is a list of tools that I would love to know better, or had little experience: cypress, docker, php, koa, laravel, apache, wamp, xampp, typescript, python, coffee script, linux, command line</p>
+          </div>
+        </div>
+      </section>
+      <section class="section section--projects" id="projects">
         <div class="section__header">
           <h2>Projects</h2><i class="fa-solid fa-briefcase fa-md"></i>
         </div>
         <div class="divider"></div>
         <div class="article article--projects">
-          <div class="box--name">
-            <h3>Bassfunk</h3><span>closed</span>
-          </div>
-          <div class="box--body">
-            <p>This was an entry point for me. One of my friends decided to help with building a website for musical label and also decided to use meteor.js as a framework. After he had no time to continue supporting it, I had to do it by myself. I can’t say that I really understood what was happening then, but it helped me to start navigating the frontend world</p>
-          </div>
-          <div class="divider"></div>
-          <div class="box--name">
-            <h3>Wealty</h3><a class="link link--project" href="https://themeforest.net/item/wealty-multipurpose-real-estate-wordpress-theme/23511272" target="_blank">link</a>
+          <div class="box--name break-before">
+            <h3>Wealty</h3><a class="link link--project" href="https://themeforest.net/item/wealty-multipurpose-real-estate-wordpress-theme/23511272" target="_blank"><span>link</span><span class="print">https://themeforest.net/item/wealty-multipurpose-real-estate-wordpress-theme/23511272</span></a>
           </div>
           <div class="box--body">
             <p>A wordpress theme that I was working on as a frontend developer for more than a year. Most of my experience I got from that times, because we had to build a constructor for other websites and when this is the case, the process of development is very different from traditional. It should be borne in mind that the person who bought the theme will definitely want to do something that was not planned. Because of this, there was a feeling that the development process takes forever. In addition, the WordPress ecosystem itself is not perfect, and if you look under the cop, many fled in horror.</p>
           </div>
           <div class="divider"></div>
           <div class="box--name">
-            <h3>Fundemic</h3><a class="link link--project" href="https://anton-dementiev.github.io/fundemic_website_v2" target="_blank">link</a>
+            <h3>Fundemic</h3><a class="link link--project" href="https://anton-dementiev.github.io/fundemic_website_v2" target="_blank"><span>link</span><span class="print">https://anton-dementiev.github.io/fundemic_website_v2</span></a>
           </div>
           <div class="box--body">
             <p>A static site for developers of children's games. The most interesting part of project was morphing animations in hero section</p>
           </div>
           <div class="divider"></div>
           <div class="box--name">
-            <h3>Dialog</h3><a class="link link--project" href="https://dlg.im/en/" target="_blank">link</a>
+            <h3>Dialog</h3><a class="link link--project" href="https://dlg.im/en/" target="_blank"><span>link</span><span class="print">https://dlg.im/en/</span></a>
           </div>
           <div class="box--body">
             <p>Landing page for a division of Sberbank engaged in the development of a corporate messenger . Everything was done with gulp. Had interesting experience of using google sheets as a webserver.</p>
@@ -123,14 +129,14 @@
           </div>
           <div class="divider"></div>
           <div class="box--name">
-            <h3>Kaizen ventures</h3><a class="link link--project" href="https://kaizen-ventures.webflow.io/" target="_blank">link</a>
+            <h3>Kaizen ventures</h3><a class="link link--project" href="https://kaizen-ventures.webflow.io/" target="_blank"><span>link</span><span class="print">https://kaizen-ventures.webflow.io</span></a>
           </div>
           <div class="box--body">
             <p>To be honest, the webflow turned out to be the most pleasant site builder I have ever tried before. Still it is nocode programming and I can't be proud of it, but after this project I understood that no matter what the site builder is, it will be possible to quickly deal with it.</p>
           </div>
           <div class="divider"></div>
           <div class="box--name">
-            <h3>markforge portfolio</h3><a class="link link--project" href="https://markforge.cargo.site/" target="_blank">link</a>
+            <h3>markforge portfolio</h3><a class="link link--project" href="https://markforge.cargo.site/" target="_blank"><span>link</span><span class="print">https://markforge.cargo.site/</span></a>
           </div>
           <div class="box--body">
             <p>A few logo animations and website fixes for different platforms with this portfolio. For a long time they were looking for the right CMS platform and the customer decided to stop at cargo. Also tried wordpress and tilda.</p>
@@ -140,27 +146,38 @@
             <h3>Crismobil</h3><span>under nda</span>
           </div>
           <div class="box--body">
-            <p>Not every project is completed to the end and this was the case when the customer overdid it with the terms of reference. The main goal was to build a furniture constructor with javascript. In the middle of the project everybody understood that we had not enough resources to finish it.</p>
+            <p>Not every project is completed to the end and this was the case when the customer overdid it with the terms of reference. The main goal was to build a furniture constructor with Javascript. In the middle of the project everybody understood that we had not enough resources to finish it.</p>
           </div>
         </div>
-      </div>
-      <div class="section section--additional" id="additional">
+      </section>
+      <section class="section section--additional" id="additional">
         <div class="section__header">
           <h2>Additional skills and interests</h2><i class="fa-solid fa-icons fa-md"></i>
         </div>
         <div class="article article--additional">
           <div class="divider"></div>
+          <div class="box--name">
+            <h3>Music and design</h3>
+          </div>
           <div class="box--body">
-            <p>Before I started programming I was deeply immersed in the world of music, and even had experience with creating internet label and promoting music on different platforms. After several releases we decided to build a website for our label and it was listed on https://brutalistwebsites.com/. Unfortunately it is not longer supported and is not available, but still on that list. Since than I started to dive into css and javascript</p>
+            <p>Before I started programming I was deeply immersed in the world of music, and even had experience with creating internet label and promoting music on different platforms. After several releases we decided to build a website for our label and it was listed on <a class="link" href="https://brutalistwebsites.com" target="_blank">https://brutalistwebsites.com</a>. Unfortunately it is not longer supported and is not available, but still on that list.</p>
+            <p>This was an entry point for me. One of my friends decided to help with building a website and also decided to use meteor.js as a framework. At that time it was most cutting edge technology in the world of Javascript. After he had no time to continue supporting it, I had to do it by myself.</p>
+            <p>I can’t say that I got used to it, but every post on a website blog was a custom html and css with a lot of experiments. I was doing it for about 5 years, and most of my knowledge and experience in css was because of this project</p>
+            <p>Example of music we were releasing: <a class="link" href="https://bassfunk.bandcamp.com/album/life-death-ep" target="_blank">https://bassfunk.bandcamp.com/album/life-death-ep</a></p>
+            <p>Example of design around which the site was build: <a class="link" href="https://i.imgur.com/MMaD2nC.png" target="_blank">https://i.imgur.com/MMaD2nC.png</a></p>
+          </div>
+          <div class="divider"></div>
+          <div class="box--name">
+            <h3>Photography</h3>
+          </div>
+          <div class="box--body">
             <p>I also have huge experience in photography, and look forward to continue this hobby in the future. For this reason, I am also quite familiar with adobe Photoshop and Premiere</p>
           </div>
         </div>
-      </div>
+      </section>
       <nav class="nav"><a class="link link--circle link--column link--xs" href="#career"><i class="fa-solid fa-user fa-md"></i></a><a class="link link--circle link--column link--xs" href="#skills"><i class="fa-solid fa-bolt fa-md"></i></a><a class="link link--circle link--column link--xs" href="#projects"><i class="fa-solid fa-briefcase fa-md"></i></a><a class="link link--circle link--column link--xs" href="#additional"><i class="fa-solid fa-icons fa-md"></i></a></nav>
       <div class="noise"></div>
-      <footer class="section section--footer" id="pdf">
-        <button class="link link--pdf link--circle link--lg" onclick="window.print();">pdf</button><a class="link link--github link--circle link--lg" href="https://github.com/artponomariov/artponomariov" target="_blank">code</a>
-      </footer>
+      <footer class="section section--footer" id="pdf"><a class="link link--pdf link--circle link--lg" href="cv-light-nopages.pdf" target="_blank">pdf</a><a class="link link--github link--circle link--lg" href="https://github.com/artponomariov/artponomariov" target="_blank">code</a></footer>
     </div><br/>
     <center>😊</center>
   </body>
